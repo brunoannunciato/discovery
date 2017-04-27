@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Discovery - Teste Modulos</title>
+    <link rel="stylesheet" type="text/css" href="src/css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+	
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+	
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+				sectionsColor: ['#000000', '#292929', '#000000', '292929', '#000000', '292929'],
+                'navigationPosition': 'right',
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],
+				/*				
+				hybrid:true,
+				fitToSection: false*/
+				navigation: true,
+                'navigationTooltips': ['Discovery', 'Linha do tempo', 'Artistas', 'Launchpad', 'Playlist', 'Sign Book'],
+				navigationPosition: 'right',
+				scrollOverflow: true
+				
+            });
+        });
+    </script>
+	<style>
+        .section{
+			color: white;
+            font-size: 6em;
+            text-align: center;
+        }
+		
+		#linha{
+			font-size: 32px;
+			text-align: center;
+			}
+    </style>
+</head>
+<body>
+     <div id="fullpage">
+        <div class="section">
+        	<div id="box-logo">
+   				<img class="logo" src="src/imgs/logo.png" />
+			</div>
+        </div>
+        <div class="section"> <!-- class="section fp-normal-scroll">-->
+        	<div>
+	        	<h1 class="h1blue">
+	        		Linha Do Tempo
+	        	</h1>	
+        	</div>
+			<div id="linha">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed pharetra diam. Ut efficitur quam ut ligula dictum congue. Vivamus luctus pretium turpis, ut luctus metus. Duis convallis neque lacus, ac interdum mauris ullamcorper venenatis. Maecenas convallis tellus et ante laoreet egestas sed at mi. Vestibulum ac metus sit amet est imperdiet ultricies vitae ac elit. Quisque orci sapien, cursus id mattis in, dignissim quis est. Proin nec arcu eget erat dignissim efficitur nec ut nulla. Donec gravida mi elit, sed semper ligula pretium et. In malesuada eros at lacus pharetra, euismod vestibulum est euismod. Aliquam ullamcorper nulla fringilla ex luctus blandit. In nisl ex, porta vitae luctus ac, blandit id augue. Phasellus id nisi ut mauris facilisis pellentesque. Duis nec ex nunc.
+				</p>
+				<p>
+				Nunc nec laoreet tortor. Morbi tempus feugiat felis sit amet tristique. Praesent consequat quis nisi eu congue. Pellentesque quis lacinia ex. Sed efficitur neque at lorem sodales tincidunt eu at magna. Duis non facilisis neque. Aenean in erat sed arcu volutpat pulvinar. Quisque blandit lorem ac dignissim luctus. Nullam quis efficitur lacus.
+				</p>
+				<p>
+				Etiam vestibulum et turpis ac molestie. Nulla vehicula euismod mi, non congue tortor malesuada at. Vivamus vitae odio at quam scelerisque malesuada eget vitae enim. Sed erat velit, ultrices at erat in, pulvinar convallis velit. In orci neque, ultricies quis dapibus id, rutrum vitae diam. Quisque eu nulla eros. Maecenas sed nulla sit amet eros ultrices condimentum quis non diam. Maecenas vitae justo leo. Nulla luctus lectus non massa egestas sollicitudin. Nulla scelerisque enim nec semper pulvinar. Duis congue justo ut auctor porttitor. Proin tincidunt dictum blandit. Vestibulum ut tortor at risus ullamcorper finibus a et urna. Nullam in elit urna.
+				</p>
+				<p>
+				Sed tristique velit magna, ac finibus felis scelerisque sit amet. Nulla finibus nisl feugiat tortor blandit dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean egestas, nisl nec euismod aliquet, nibh nibh commodo metus, eu suscipit elit nulla eget nisl. Maecenas non hendrerit urna, et dictum risus. Sed convallis ante vulputate risus malesuada rutrum. Donec venenatis felis eget lorem dictum consectetur. Ut ut quam tellus. Phasellus elementum mollis neque eget dictum.
+				</p>
+				<p>
+				Maecenas rhoncus ultricies mauris eu fringilla. Aliquam pellentesque nibh eget aliquam congue. Etiam ligula arcu, consequat sollicitudin arcu id, varius rutrum justo. Suspendisse in luctus diam. Vestibulum a mauris mattis lacus bibendum aliquam ac dictum diam. In hac habitasse platea dictumst. Donec ut magna at eros laoreet sollicitudin. Pellentesque quis ex a ex laoreet molestie. In non pellentesque enim, sed faucibus erat. Duis molestie viverra dolor id malesuada. Duis gravida faucibus tristique. Ut et ultrices nibh, a dictum ligula. In iaculis orci ac orci sagittis, in ornare neque finibus.
+				</p>
+				<p>
+				Ut pretium arcu ligula, ac suscipit sem aliquam vitae. Vestibulum lobortis eu nulla vitae venenatis. Vivamus tempus sit amet dui eu convallis. Nullam ultrices sed velit sit amet pharetra. Integer sit amet arcu urna. In consequat dolor purus, at efficitur diam feugiat vitae. Maecenas pharetra, arcu id molestie tincidunt, lorem dolor lobortis purus, efficitur aliquet erat mauris et orci. In sem sapien, pretium quis est et, consequat dictum ante. Quisque convallis eros nec magna aliquam, ac fringilla orci blandit. Pellentesque luctus convallis turpis eu dictum. Proin vestibulum sem eget pulvinar molestie. Proin est mauris, fermentum at massa at, volutpat laoreet enim. Phasellus ut dolor placerat, sagittis nisl ac, condimentum velit. Proin posuere facilisis sem, vitae interdum risus. Mauris eget fringilla felis, sed tincidunt lorem. Sed pulvinar dignissim orci in mattis.
+				</p>
+				<p>
+				Maecenas faucibus, nibh nec volutpat sagittis, nisl urna facilisis sem, ac aliquam est urna vitae mi. Maecenas eget mi id nunc sodales lobortis a sed libero. Duis condimentum sapien leo, ac faucibus sem porta ac. Duis congue sapien lacus, at placerat felis aliquam vel. Donec vestibulum sem at quam facilisis pharetra. Aliquam felis magna, scelerisque ut pellentesque eu, blandit a nisl. Aenean ipsum ante, feugiat ut neque a, eleifend efficitur eros. Maecenas elementum faucibus turpis, ut malesuada augue semper id. Sed pretium euismod vehicula. Aliquam eros mi, mollis sit amet sagittis eu, suscipit vel arcu. Nulla iaculis ex malesuada quam tincidunt, imperdiet varius ante condimentum. Sed pharetra ut dui at sagittis. Integer eget arcu nisl. Etiam aliquet tempor nisi, ac egestas eros varius non. 
+				</p>
+			</div>
+		</div>
+        <div class="section">
+	        <h1 class="h1pink">
+	      	  Artistas
+	        </h1>
+        </div>
+		<div class="section">
+			<h1 class="h1blue">
+	      	  Launchpad
+	        </h1>
+		</div>
+		<div class="section">
+		<h1 class="h1pink">
+			Playlist
+		</h1>
+		</div>
+        <div class="section">
+        	<h1 class="h1blue">
+	      	  Sign Book
+	        </h1>
+        </div>
+    </div>            
+</body>
+</html>
