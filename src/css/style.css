@@ -27,4 +27,13 @@ p {
 .logo {
     width: 100%;
     max-width: 885px;
+    animation: fade 1.3s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 100%;
+  }
 }

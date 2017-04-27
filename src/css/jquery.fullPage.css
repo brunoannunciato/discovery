@@ -157,7 +157,6 @@ html.fp-enabled,
     cursor: pointer;
     text-decoration: none;
 }
-
 /*menu-selecionado*/
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
@@ -167,10 +166,10 @@ html.fp-enabled,
     width: 12px;
     margin: -6px 0 0 -6px;
     border-radius: 100%;
-    background: #18982f;
-
+    background: #2a933d;
  }
-/*bolinhas-menu*/
+
+ /*menu*/
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
@@ -179,7 +178,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #cd1980;
+    background: #df0c84;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -195,13 +194,13 @@ html.fp-enabled,
     margin: -5px 0px 0px -5px;
 }
 
-/*texto-hover-menu*/
+/*font-menu*/
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #1ac0e6;
+    color: #6bcaee;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
@@ -210,9 +209,7 @@ html.fp-enabled,
     width: 0;
     cursor: pointer;
     letter-spacing: 3px;
-    font-weight: bolder;
 }
-
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
