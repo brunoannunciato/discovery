@@ -209,6 +209,9 @@ html.fp-enabled,
     width: 0;
     cursor: pointer;
     letter-spacing: 3px;
+    background: #000;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #fp-nav ul li:hover .fp-tooltip,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
