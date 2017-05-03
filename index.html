@@ -3,16 +3,19 @@
 <title>Discovery</title>
     <link rel="stylesheet" type="text/css" href="src/css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="src/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/lauchpad.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendors/jquery.easings.min.js"></script>
 	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="src/script/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="src/script/launchpad.js"></script>
 	
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-				sectionsColor: ['#000000', '#292929', '#000000', '292929', '#000000', '292929'],
+				sectionsColor: ['#000000', '#292929', '#000000', '#292929', '#000000', '292929'],
                 'navigationPosition': 'right',
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],
 				/*				
@@ -81,9 +84,127 @@
 	        </h1>
         </div>
 		<div class="section">
-			<h1 class="h1blue">
-	      	  Launchpad
-	        </h1>
+			<div class="launch-text">
+				<h1 class="h1pink">Teste</h1>
+			</div>
+			<div class="launchpad">
+		      <div class="keys row1">
+		        <div data-key="q" class="key">
+		          <kbd>Q</kbd>
+		        </div>
+		        <div data-key="w" class="key">
+		          <kbd>W</kbd>
+		        </div>
+		        <div data-key="e" class="key">
+		          <kbd>E</kbd>
+		        </div>
+		        <div data-key="r" class="key">
+		          <kbd>R</kbd>
+		        </div>
+		        <div data-key="t" class="key">
+		          <kbd>T</kbd>
+		        </div>
+		        <div data-key="y" class="key">
+		          <kbd>Y</kbd>
+		        </div>
+		        <div data-key="u" class="key">
+		          <kbd>U</kbd>
+		        </div>
+		        <div data-key="i" class="key">
+		          <kbd>I</kbd>
+		        </div>
+		        <div data-key="o" class="key">
+		          <kbd>O</kbd>
+		        </div>
+		      </div>
+		      <div class="keys row2">
+		        <div data-key="a" class="key">
+		          <kbd>A</kbd>
+		        </div>
+		        <div data-key="s" class="key">
+		          <kbd>S</kbd>
+		        </div>
+		        <div data-key="d" class="key">
+		          <kbd>D</kbd>
+		        </div>
+		        <div data-key="f" class="key">
+		          <kbd>F</kbd>
+		        </div>
+		        <div data-key="g" class="key">
+		          <kbd>G</kbd>
+		        </div>
+		        <div data-key="h" class="key">
+		          <kbd>H</kbd>
+		        </div>
+		        <div data-key="j" class="key">
+		          <kbd>J</kbd>
+		        </div>
+		        <div data-key="k" class="key">
+		          <kbd>K</kbd>
+		        </div>
+		        <div data-key="l" class="key">
+		          <kbd>L</kbd>
+		        </div>
+		      </div>
+		      <div class="keys row3">
+		        <div data-key="z" class="key">
+		          <kbd>Z</kbd>
+		        </div>
+		        <div data-key="x" class="key">
+		          <kbd>X</kbd>
+		        </div>
+		        <div data-key="c" class="key">
+		          <kbd>C</kbd>
+		        </div>
+		        <div data-key="v" class="key">
+		          <kbd>V</kbd>
+		        </div>
+		        <div data-key="b" class="key">
+		          <kbd>B</kbd>
+		        </div>
+		        <div data-key="n" class="key">
+		          <kbd>N</kbd>
+		        </div>
+		        <div data-key="m" class="key">
+		          <kbd>M</kbd>
+		        </div>
+		        <div data-key="," class="key">
+		          <kbd>,</kbd>
+		        </div>
+		        <div data-key="." class="key">
+		          <kbd>.</kbd>
+		        </div>
+		      </div>
+		      <div class="sound">
+		        <audio src="src/audio/base_01.wav" data-key="q"></audio>
+		        <audio src="src/audio/base_02.wav" data-key="w"></audio>
+		        <audio src="src/audio/base_03.wav" data-key="e"></audio>
+		        <audio src="src/audio/base_04.wav" data-key="r"></audio>
+		        <audio src="src/audio/base_05.wav" data-key="t"></audio>
+		        <audio src="src/audio/base_06.wav" data-key="y"></audio>
+		        <audio src="src/audio/base_07.wav" data-key="u"></audio>
+		        <audio src="src/audio/base_08.wav" data-key="i"></audio>
+		        <audio src="src/audio/base_09.wav" data-key="o"></audio> 
+		        <audio src="src/audio/base_10.wav" data-key="a"></audio>
+		        <audio src="src/audio/base_11.wav" data-key="s"></audio>
+		        <audio src="src/audio/base_12.wav" data-key="d"></audio>
+		        <audio src="src/audio/base_13.wav" data-key="f"></audio>
+		        <audio src="src/audio/base_14.wav" data-key="g"></audio>
+		        <audio src="src/audio/base_15.wav" data-key="h"></audio>
+		        <audio src="src/audio/base_16.wav" data-key="j"></audio>
+		        <audio src="src/audio/base_17.wav" data-key="k"></audio>
+		        <audio src="src/audio/base_18.wav" data-key="l"></audio>
+		        <audio src="src/audio/base_19.wav" data-key="z"></audio>
+		        <audio src="src/audio/base_20.wav" data-key="x"></audio>
+		        <audio src="src/audio/base_21.wav" data-key="c"></audio>
+		        <audio src="src/audio/base_22.wav" data-key="v"></audio>
+		        <audio src="src/audio/base_23.wav" data-key="b"></audio>
+		        <audio src="src/audio/base_24.wav" data-key="n"></audio>
+		        <audio src="src/audio/base_25.wav" data-key="m"></audio>
+		        <audio src="src/audio/base_26.wav" data-key=","></audio>
+		        <audio src="src/audio/base_27.wav" data-key="."></audio> 
+		      </div>
+		    </div>
 		</div>
 		<div class="section">
 		<h1 class="h1pink">
