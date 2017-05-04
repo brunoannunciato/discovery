@@ -5,6 +5,13 @@ p {
 	padding: 3em;
 }
 
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+    color: #2a9f44;
+    letter-spacing: 4px;
+}
+
 .section{
     font-size: 6em;
     text-align: center;
@@ -12,7 +19,7 @@ p {
 
 .h1pink {
     color: #e7429c;
-    font-family: arial, verdana, tahoma;
+    font-family: 'Raleway', sans-serif;
     font-size: 80px;
     text-shadow: 0 0 15px #e7429c;
 }
