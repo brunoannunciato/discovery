@@ -1,4 +1,4 @@
-<html>
+html>
 <head>
 <title>Discovery</title>
 	<meta charset="utf-8">
@@ -217,21 +217,68 @@
 			Playlist
 		</h1>
 		</div>
+		<!-- página-sign-book -->
         <div class="section">
-        	<h1 class="h1blue">
-	      	  <div class="form">
-				<form action="register.php">
-					<div class="formfield">
+	      	 	<div class="form">
+					<div class="depoiments">
 						<legend>
-							Deixe seu depoimento:
+							Depoimentos:
 						</legend>
-						<input type="text" name="nome" id="nome" placeholder="Seu nome"> <br>
-						<input type="email" name="email" id="email" placeholder="Seu email"> <br>
-						<textarea id="depoimento" cols="" rows="" placeholder="Depoimento"></textarea>
-						<input type="submit" name="enviar" class="btn">
+						<div class="depbox">
+							<div class="deptext">
+								"Gostei muito, achei bem interessante!"
+							</div>
+							<div class="depname">
+								-Jorginho daora
+							</div>
+						</div>
+						<div class="depbox">
+							<div class="deptext">
+								"suuuuper foda, doidão!"
+							</div>
+							<div class="depname">
+								-Pedro Xaruleta
+							</div>
+						</div>
+						<div class="depbox">
+							<div class="deptext">
+								"Do caralho mermãaaao!"
+							</div>
+							<div class="depname">
+								-Isadora Sites
+							</div>
+						</div>
+						<div class="depbox">
+							<div class="deptext">
+								"Olha, eu não gostei porque sou suuuuper fresca e gosto de reclamar das coisas, espero que vcs me entendam obrigada. Beijos de luz!"
+							</div>
+							<div class="depname">
+								-Paty Faria
+							</div>
+						</div>
+						<div class="depbox">
+							<div class="deptext">
+								"Luck, eu sou seu pai!"
+							</div>
+							<div class="depname">
+								-Darth Vader
+							</div>
+						</div>
 					</div>
-				</form>
-			</div>
+					<div class="formbox">
+						<form method="post" action="add.php">
+							<div class="formfield" align="left">
+								<legend>
+									Deixe seu depoimento:
+								</legend>
+								<input type="text" name="nome" id="nome" placeholder="Seu nome"> <br>
+								<input type="email" name="email" id="email" placeholder="Seu email"><br>
+								<textarea id="depoimento" cols="" rows="" name="depoimento" placeholder="Depoimento"></textarea>
+								<input type="submit" name="enviar" class="btn">
+							</div>
+						</form>
+					</div>
+				</div>
 	        </h1>
         </div>
     </div>            

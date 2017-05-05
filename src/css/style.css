@@ -44,3 +44,9 @@ h2{
     opacity: 100%;
   }
 }
+
+.depbox {
+    border: 1px solid red;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
