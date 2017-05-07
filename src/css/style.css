@@ -1,52 +1,51 @@
-p {
-	font-family: Arial, Sans-serif;
-	font-size: 21px;
-	color: #9bcdf5;
-	padding: 3em;
-}
-
-h2{
-    font-family: 'Orbitron', sans-serif;
-    font-size: 17px;
-    color: #2a9f44;
-    letter-spacing: 4px;
-}
-
-.section{
-    font-size: 6em;
-    text-align: center;
-}
-
-.h1pink {
-    color: #e7429c;
-    font-family: 'Raleway', sans-serif;
-    font-size: 80px;
-    text-shadow: 0 0 15px #e7429c;
-}
-
-.h1blue {
-    color: #3ebffa;
-    font-family: arial, verdana, tahoma;
-    font-size: 80px;
-    text-shadow: 0 0 15px #3ebffa;
-}
-
-.logo {
-    width: 100%;
-    max-width: 885px;
-    animation: fade 1.3s ease-in;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  } 100% {
-    opacity: 100%;
-  }
-}
-
-.depbox {
-    border: 1px solid red;
-    font-size: 14px;
-    letter-spacing: 1px;
+p {
+	font-family: Arial, Sans-serif;
+	font-size: 21px;
+	color: #9bcdf5;
+	padding: 3em;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+    color: #2a9f44;
+    letter-spacing: 4px;
+}
+
+.section{
+    font-size: 6em;
+    text-align: center;
+}
+
+.h1pink {
+    color: #e7429c;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    text-shadow: 0 0 15px #e7429c;
+}
+
+.h1blue {
+    color: #3ebffa;
+    font-family: arial, verdana, tahoma;
+    font-size: 80px;
+    text-shadow: 0 0 15px #3ebffa;
+}
+
+.logo {
+    width: 100%;
+    max-width: 885px;
+    animation: fade 1.3s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 100%;
+  }
+}
+
+.depbox {
+    font-size: 14px;
+    letter-spacing: 1px;
 }
